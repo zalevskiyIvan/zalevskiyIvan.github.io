@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Guntur&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="jquery.pagepiling.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.pagepiling.min.js"></script>
+    <title>Restaurant template</title>
+  </head>
+  <body>
+    <div id="pagepiling" class="main">
+      <div id="page1" class="section first_page">
+        <header>
+          <ul class="menu">
+            <li>HOME</li>
+            <li>ABOUT</li>
+            <li>TEAM</li>
+            <li>BOOKING</li>
+            <li><img src="img/wheel.png" alt="" /></li>
+            <li>MENU</li>
+            <li>GALERIE</li>
+            <li>EVENTS</li>
+            <li>CONTACT</li>
+          </ul>
+          <img class="line_first" src="img/Line.png" />
+          <img class="line_second" src="img/Line.png" />
+        </header>
+        <img class="line_vertical-first" src="img/Line_vertical.png" />
+        <img class="line_vertical-second" src="img/Line_vertical.png" />
+        <img class="line_vertical-third" src="img/Line_vertical.png" />
+        <div class="info">
+          <span class="info-restaurant"> RESTAURANT</span>
+          <span class="info-title">Hungry people</span>
+          <img class="yellow_r" src="img/yellow_rectangle.png" alt="" />
+          <div class="info-buttons">
+            <button class="btn btn-warning">BOOK TABLE</button>
+            <button class="btn btn-outline-dark">Explore</button>
+          </div>
+          <div class="social">
+            <img src="img/facebook.png" alt="" />
+            <img src="img/twitter.png" alt="" />
+            <img src="img/instagram.png" alt="" />
+          </div>
+          <img
+            onclick="$.fn.pagepiling.moveSectionDown();"
+            class="down"
+            src="img/down-btn.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="page2" class="section">
+        <div class="page page_bg">
+          <div class="second_page-text">
+            <div><span class="page-text-title">ABOUT US</span></div>
+            <img class="yellow_r-page" src="img/yellow_rectangle.png" alt="" />
+            <br />
+
+            <strong
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.</strong
+            >
+            <br />
+            <p class="page-p">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+              ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
+              Nulla facilisis semper laoreet.
+            </p>
+          </div>
+          <img class="second_page-img" src="img/page2_photo.png" alt="" />
+        </div>
+      </div>
+      <div id="page3" class="section">
+        <div class="page third_page page_bg">
+          <img src="img/page3_photo.png" alt="" />
+
+          <div class="third_page-text">
+            <div><span class="page-text-title">MASTER CHEF</span></div>
+            <img class="yellow_r-page" src="img/yellow_rectangle.png" alt="" />
+            <br />
+
+            <strong
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.</strong
+            >
+            <br />
+            <p class="page-p">
+              Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+              posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+              ullamcorper feugiat, dui odio vehicula eros, a sollicitudin lorem
+              quam nec sem. Mauris tincidunt feugiat diam convallis pharetra.
+              Nulla facilisis semper laoreet.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="page4" class="section">
+        <div class="page">
+          <div class="four_page-text">
+            <div><span class="page-text-title">Book a table</span></div>
+            <img class="yellow_r-page" src="img/yellow_rectangle.png" alt="" />
+            <form>
+              <div class="me-2 mb-2">
+                <input placeholder="Name" class="custom-inp" />
+              </div>
+              <div class="me-2">
+                <input placeholder="Email" class="custom-inp" />
+              </div>
+              <div class="me-2">
+                <input placeholder="Phone" class="custom-inp" />
+              </div>
+              <div class="me-2 mb-2">
+                <input placeholder="People" class="custom-inp" />
+              </div>
+              <div class="me-2 mb-2">
+                <input placeholder="Date (mm/dd)" class="custom-inp" />
+              </div>
+              <div>
+                <input placeholder="Time" class="custom-inp" />
+              </div>
+              <button class="btn btn-warning page_four-submit">
+                <span>BOOK TABLE</span>
+              </button>
+            </form>
+          </div>
+          <img class="four_page-img" src="img/page4_photo.png" alt="" />
+        </div>
+      </div>
+      <div id="page5" class="section">
+        <div class="page">
+          <div class="section">
+            <div class="page five_page page_bg">
+              <img src="img/page5_photo.png" alt="" />
+              <div class="third_page-text">
+                <div>
+                  <span class="page-text-title">CHOCOLATE PANCAKES</span>
+                </div>
+                <img
+                  class="yellow_r-page"
+                  src="img/yellow_rectangle.png"
+                  alt=""
+                />
+                <br />
+
+                <strong
+                  >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  at velit maximus, molestie est a, tempor magna.</strong
+                >
+                <br />
+                <p class="page-p">
+                  Integer ullamcorper neque eu purus euismod, ac faucibus mauris
+                  posuere. Morbi non ultrices ligula. Sed dictum, enim sed
+                  ullamcorper feugiat, dui odio vehicula eros, a sollicitudin
+                  lorem quam nec sem. Mauris tincidunt feugiat diam convallis
+                  pharetra. Nulla facilisis semper laoreet.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="page6" class="section">
+        <div class="six_page">
+          <div><span class="page-text-title">DELICIOUS MENU</span></div>
+          <img class="yellow_r-page" src="img/yellow_rectangle.png" alt="" />
+          <br />
+          <div class="six_page-strong">
+            <strong
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at
+              velit maximus, molestie est a, tempor magna.</strong
+            >
+          </div>
+
+          <ul class="breadcrumb">
+            <li>SOUPE</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>PIZZA</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>PASTA</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>DESERT</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>WINE</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>BEER</li>
+            <img src="img/breadcrum-line.png" alt="" />
+            <li>DRINKS</li>
+          </ul>
+          <div class="six_page-menu">
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+            <div>
+              <strong>PIZZA QUATRO STAGIONI . . . . 55,68 USD </strong>
+              <br />
+              <span>Integer ullamcorper neque eu purus euismod</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="page7">
+        <div class="page seven_page page_bg">
+          <img src="img/page7_left-photo.png" alt="" />
+          <img
+            class="seven_page-line_vertical-second"
+            src="img/Line_vertical.png"
+            alt=""
+          />
+          <img src="img/page7_right-photo.png" alt="" />
+        </div>
+      </div>
+      <div id="page8" class="section">
+        <div class="eight_page">
+          <div class="eigth_page-text">
+            <div><span class="page-text-title">CONTACT</span></div>
+            <img class="yellow_r-page" src="img/yellow_rectangle.png" alt="" />
+            <br />
+            <div class="six_page-strong">
+              <strong
+                >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                at velit maximus, molestie est a, tempor magna.</strong
+              >
+            </div>
+          </div>
+          <form>
+            <div>
+              <input placeholder="Nume" class="eight_page-custom-inp" />
+            </div>
+            <div>
+              <input placeholder="Email" class="eight_page-custom-inp" />
+            </div>
+            <div>
+              <input placeholder="Phone" class="eight_page-custom-inp" />
+            </div>
+            <div class="eight_page-message">
+              <textarea
+                placeholder="Message"
+                class="eight_page-custom-inp"
+              ></textarea>
+            </div>
+            <div class="submit">
+              <span> 5th London Boulevard, U.K. </span
+              ><span> +40 729 131 637/+40 726 458 782 </span
+              ><span> office@mindblister.com</span>
+              <button class="btn btn-warning eight_page-button">
+                <span>SEND MESSAGE</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#pagepiling").pagepiling();
+      });
+    </script>
+  </body>
+</html>
