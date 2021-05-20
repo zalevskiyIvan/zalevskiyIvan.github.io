@@ -1,0 +1,297 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.first_page {
+  height: 100vh;
+  background-image: url("img/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu {
+  width: 31%;
+  height: min-content;
+  display: flex;
+  color: white;
+  font-family: "Open Sans";
+  margin-left: 5%;
+  padding-top: 3%;
+  list-style-type: none;
+}
+.menu li {
+  margin-left: 18%;
+  font-size: 13px;
+  font-weight: 700;
+}
+.menu li img {
+  margin-top: -10%;
+}
+.line_first {
+  position: relative;
+  top: -90px;
+  left: 7%;
+}
+.line_second {
+  position: relative;
+  top: -90px;
+  left: 22%;
+}
+.line_vertical-first {
+  height: 510px;
+  position: absolute;
+  top: 110px;
+  left: 20%;
+}
+.line_vertical-second {
+  height: 510px;
+  position: absolute;
+  top: 200px;
+  left: 49.3%;
+}
+.line_vertical-third {
+  height: 510px;
+  position: absolute;
+  top: 110px;
+  left: 78%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-top: 7%;
+}
+
+.info-restaurant {
+  font-family: "Open Sans";
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5em;
+}
+.info-title {
+  font-size: 96px;
+  font-family: "Hind Guntur", sans-serif;
+}
+.yellow_r {
+  width: 4%;
+  margin-left: 47.4%;
+  margin-top: -1%;
+}
+.info-buttons {
+  display: flex;
+  margin-top: 3%;
+  margin-left: 33.5%;
+}
+.info-buttons button {
+  width: 200px;
+  height: 60px;
+  color: white;
+  margin-left: 3%;
+}
+.info-btn-yellow {
+  background-color: #e8c300;
+  border: none;
+}
+.info-buttons button:hover {
+  color: white;
+}
+.social {
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 90%;
+  margin-top: -15%;
+}
+.social img {
+  margin-bottom: 30%;
+}
+.down {
+  width: 4%;
+  margin-top: 3%;
+  margin-left: 47.4%;
+}
+.page {
+  height: 100vh;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.second_page-text {
+  width: 73%;
+  margin-left: auto;
+  margin-top: 30%;
+}
+.second_page-img {
+  margin: auto;
+}
+.third_page-text {
+  width: 73%;
+  margin-right: auto;
+  margin-top: 30%;
+  color: rgba(207, 207, 207, 0.9);
+}
+.page-text-title {
+  font-family: "Hind Guntur", sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+}
+.page-p {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 3%;
+}
+strong {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.yellow_r-page {
+  margin-bottom: 1%;
+}
+.page_bg {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third_page {
+  background-image: url("img/page3_bg.png");
+}
+.third_page img {
+  margin: auto;
+}
+.four_page-text {
+  width: 73%;
+  margin-left: auto;
+  margin-top: 20%;
+}
+.four_page-text form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.page_four-submit {
+  grid-column: span 2;
+}
+.page_four-submit span {
+  color: white;
+}
+.custom-inp {
+  height: 60px;
+  width: 277px;
+  background: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.four_page-img {
+  margin-top: 9%;
+}
+.five_page {
+  background-image: url("img/page5_bg.png");
+}
+.five_page img {
+  margin-top: 8%;
+}
+.six_page {
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+.six_page-strong {
+  width: 33%;
+  margin-left: 33%;
+}
+.breadcrumb {
+  display: flex;
+  margin-left: 31%;
+  margin-top: 2%;
+}
+.breadcrumb li {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.breadcrumb img {
+  margin-top: -1%;
+}
+.six_page-menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 2%;
+}
+.six_page-menu div {
+  margin-bottom: 6%;
+}
+.six_page-menu div span {
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+.six_page-menu div strong {
+  font-size: 18px;
+  line-height: 18px;
+}
+.seven_page {
+  padding-top: 4%;
+  background-image: url("img/page7_bg.png");
+}
+.seven_page-line_vertical-second {
+  height: 720px;
+  position: absolute;
+  top: -0px;
+  left: 49.3%;
+}
+
+.eight_page {
+  height: 100vh;
+  background-color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+.eight_page form {
+  display: grid;
+  grid-template-columns: 420px 420px 420px;
+  grid-gap: 10px;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+.eight_page-custom-inp {
+  height: 60px;
+  width: 420px;
+  background: #e5e5e5;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+.eight_page-message {
+  grid-column: span 3;
+}
+.eight_page-message textarea {
+  height: 100px;
+  width: 1280px;
+}
+.submit {
+  text-align: left;
+  grid-column: span 3;
+}
+.submit span {
+  margin-left: 1%;
+}
+.submit button {
+  width: 48.8%;
+}
